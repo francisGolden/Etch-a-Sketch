@@ -1,6 +1,12 @@
 let board = document.querySelector(".board")
 
-let squaresPerSide = prompt() 
+let input = 0
+
+
+
+do {
+    squaresPerSide = prompt();
+} while (squaresPerSide > 100);
 
 
 board.style.gridTemplateColumns = `repeat(${squaresPerSide}, 1fr)`;
