@@ -5,7 +5,7 @@ let input = 0
 
 
 do {
-    squaresPerSide = prompt();
+    squaresPerSide = prompt("Please enter a number between 1 and 99");
 } while (squaresPerSide > 100);
 
 
